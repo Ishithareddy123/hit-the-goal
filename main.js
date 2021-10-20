@@ -104,7 +104,7 @@ document.getElementById("myCanvas").style.borderColor="red";
 		if(ball_x >5)
 		{
 			
-				ball_y-=block_image_width;
+				ball_x-=block_image_width;
 				canvas.remove(ball_obj);
 				new_image();
 					}
@@ -116,7 +116,7 @@ document.getElementById("myCanvas").style.borderColor="red";
 	{
 		if(ball_x <=1050)
 		{
-			ball_y+=block_image_width;
+			ball_x+=block_image_width;
 				canvas.remove(ball_obj);
 				new_image();
 					
